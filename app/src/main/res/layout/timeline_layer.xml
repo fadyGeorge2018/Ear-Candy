@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/navBarItem"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:divider="@color/navBarItem"
+    android:showDividers="middle">
+
+    <SeekBar
+        android:padding="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_weight="0.10" />
+
+
+    <ImageView
+        android:id="@+id/track_image"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/rectangle"
+        android:layout_toRightOf="@id/seekBar2"/>
+
+</RelativeLayout>
